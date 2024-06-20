@@ -1,0 +1,35 @@
+<article class="main">
+  <h1 class="main-header">
+    Доходы и расходы
+  </h1>
+  <div class="category-item-action">
+    <button class="btn create-income" id="create-income">Создать доход</button>
+    <button class="btn create-expense" id="create-expense">Создать расход</button>
+  </div>
+  <div class="table">
+    <button class="table-btn" id="today">Сегодня</button>
+    <button class="table-btn" id="week">Неделя</button>
+    <button class="table-btn" id="month">Месяц</button>
+    <button class="table-btn" id="year">Год</button>
+    <button class="table-btn" id="all">Все</button>
+    <button class="table-btn" id="interval">Интервал</button>
+    <div class="table-data">
+      с
+      <input type="date" class="table-date-input" id="dateFrom" placeholder="Дата">
+      по
+      <input type="date" class="table-date-input" id="dateTo" placeholder="Дата">
+    </div>
+  </div>
+  <div class="operations" id="operations">
+    <div class="operations-header">
+      <div class="operation-title number">№ операции</div>
+      <div class="operation-title type">Тип</div>
+      <div class="operation-title class"> Категория</div>
+      <div class="operation-title sum">Сумма</div>
+      <div class="operation-title date">Дата</div>
+      <div class="operation-title comment">Комментарий</div>
+      <div class="operation-title btn-delete"></div>
+    </div>
+    <div class="budget" id="budget"></div>
+  </div>
+</article>

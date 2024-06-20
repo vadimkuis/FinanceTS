@@ -1,0 +1,48 @@
+.layout {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 100px 61px 90px;
+}
+
+.logo {
+  padding: 40px 70px 20px 50px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.charts {
+  display: flex;
+}
+
+.line {
+  margin-top: 55px;
+  margin-right: 0;
+  margin-left: 0;
+  height: 450px;
+  border-right: 1px solid #D9D9D9;
+}
+
+.categoryIncomes {
+  width: 437px;
+  height: 467px;
+  margin: 0 84px 0 24px;
+}
+
+.categoryExpenses {
+  width: 437px;
+  height: 467px;
+  margin: 0 24px 0 84px;
+}
+
+.charts-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #290661;
+  margin-bottom: 20px;
+}

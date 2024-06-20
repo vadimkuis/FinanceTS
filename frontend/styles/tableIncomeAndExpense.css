@@ -1,0 +1,115 @@
+.layout {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 61px 90px;
+}
+
+.logo {
+  padding: 40px 70px 20px 50px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.main-header {
+  margin-bottom: 40px;
+}
+
+.category-item-action {
+  margin-bottom: 40px;
+}
+
+.create-expense {
+  background: #DC3545;
+  color: white;
+  width: 137px;
+  padding: 10px;
+}
+
+.create-expense:hover {
+  box-shadow: 0 0 10px 3px rgba(0, 54, 152, 0.5);
+  color: white;
+}
+
+.create-income {
+  background: #198754;
+  color: white;
+  margin-right: 10px;
+  width: 130px;
+  padding: 10px;
+}
+
+.create-income:hover {
+  box-shadow: 0 0 10px 3px rgba(0, 54, 152, 0.5);
+  color: white;
+}
+
+.table {
+  margin-bottom: 38px;
+}
+
+.operations {
+  border-top: 1px solid #DEE2E6;
+}
+
+.operations-header {
+  font-weight: bold;
+  color: #052C65;
+  padding: 15px 0;
+  letter-spacing: 1.33px;
+}
+
+.operation-title {
+  margin: 0 15px;
+  width: 110px;
+}
+
+.budget {
+  display: flex;
+  flex-direction: column;
+}
+
+.list, .operations-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border-bottom: 1px solid #DEE2E6;
+}
+
+.list {
+  color: #000000;
+  padding: 15px 0;
+  letter-spacing: 1px;
+}
+
+.comment {
+  width: 200px;
+}
+
+.btn-delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  margin: 0;
+}
+
+.incomesCat {
+  color: #198754;
+}
+
+.expenseCat {
+  color: #DC3545;
+}
+
+.delete, .edit {
+  background-color: transparent;
+  border: none;
+}

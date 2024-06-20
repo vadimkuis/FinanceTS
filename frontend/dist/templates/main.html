@@ -1,0 +1,27 @@
+<article class="main">
+  <h1 class="main-header">Главная</h1>
+  <div class="table">
+    <button class="table-btn" id="today">Сегодня</button>
+    <button class="table-btn" id="week">Неделя</button>
+    <button class="table-btn" id="month">Месяц</button>
+    <button class="table-btn" id="year">Год</button>
+    <button class="table-btn" id="all">Все</button>
+    <button class="table-btn" id="interval">Интервал</button>
+    <div class="table-data">
+      с
+      <input type="date" class="table-date-input" id="dateFrom" placeholder="Дата">
+      по
+      <input type="date" class="table-date-input" id="dateTo" placeholder="Дата">
+    </div>
+  </div>
+
+  <div class="charts">
+    <div class="canvas categoryIncomes" id="categoryIncomes">
+      <h2 class="charts-title">Доходы</h2>
+    </div>
+    <div class="line"></div>
+    <div class="canvas categoryExpenses" id="categoryExpense">
+      <h2 class="charts-title">Расходы</h2>
+    </div>
+  </div>
+</article>

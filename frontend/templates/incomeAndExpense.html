@@ -1,0 +1,22 @@
+<article class="main">
+  <h1 class="main-header" id="main-header"></h1>
+  <div class="create-category">
+    <div class="create-input">
+      <select name="create" id="type">
+        <option id="typeName" disabled selected hidden >Тип..</option>
+        <option id="income" value="income">Доход</option>
+        <option id="expense" value="expense">Расход</option>
+      </select>
+      <select name="create" id="category">
+        <option id="option" disabled selected hidden>Категория</option>
+      </select>
+      <input type="text" name="create" id="price" placeholder="Сумма в $..">
+      <input type="date" name="create" id="date" placeholder="Дата...">
+      <input type="text" name="create" id="comment" placeholder="Комментарий...">
+    </div>
+    <div class="category-item-action">
+      <button class="btn action-agree" id="agree">Создать</button>
+      <button class="btn delete-category" id="disagree">Отмена</button>
+    </div>
+  </div>
+</article>

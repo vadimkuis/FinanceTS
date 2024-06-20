@@ -1,0 +1,49 @@
+.layout {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 100px 61px 90px;
+}
+
+.main-header {
+  margin-bottom: 40px;
+}
+
+.create-category {
+  color: black;
+}
+
+.logo {
+  padding: 40px 70px 20px 50px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.create-input {
+  margin-bottom: 10px;
+}
+
+.create-input select {
+  width: 397px;
+  height: 38px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  border: 1px solid #CED4DA;
+  color: #6C757D;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.create-input input {
+  margin-bottom: 10px;
+}
